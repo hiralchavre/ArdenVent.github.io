@@ -50,6 +50,9 @@ section{
 .green-text{
   color: var(--green-color);
 }
+.white-text{
+  color:white;
+}
 
 /*--- navigation bar ---*/
 
