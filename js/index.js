@@ -1,13 +1,13 @@
 var value = 0;
 function subtract(){
-    value = parseInt(document.getElementById("money").innerHTML);
+    value = parseInt(document.getElementsByClassName("money").innerHTML);
     value-=1;
-    document.getElementById("money").innerHTML = value; 
+    document.getElementsByClassName("money").innerHTML = value;
 }
 function addition(){
-    value = parseInt(document.getElementById("money").innerHTML);
+    value = parseInt(document.getElementsByClassName("money").innerHTML);
     value+=1;
-    document.getElementById("money").innerHTML = value; 
+    document.getElementsByClassName("money").innerHTML = value;
 
 }
 printScreen();
