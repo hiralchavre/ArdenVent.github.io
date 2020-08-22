@@ -1,17 +1,4 @@
-@media (max-width:1170px){
-  body{
-float:center;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-  }
-  section{
-    margin-bottom:200px;
-  }
-  .elms{
-    float:left;;
-  }
-}
+
 :root{
   --green-color:#8AD7BB;
   --blue-color:#243564;
