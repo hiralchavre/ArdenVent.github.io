@@ -10,10 +10,13 @@ function addition(){
     document.getElementsByClassName("money").innerHTML = value;
 
 }
-printScreen();
+//printScreen();
 function printScreen(){
     console.log(window.innerWidth+"px ->width");
     console.log(window.innerHeight+"px ->height");
+}
+function scrollTo(link) {
+    location.hash =link.hash.substr(1);
 }
 
 
