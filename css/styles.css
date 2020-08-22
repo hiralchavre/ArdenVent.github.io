@@ -15,7 +15,7 @@ section{
   margin-left:10%;
   margin-top: 5%;
   color:var(--blue-color);
-  height: 75%;
+  height: auto;
 }
 .flex-container {
   display: flex;
@@ -84,7 +84,7 @@ span{
   margin-right: 2%;
 }
 .center{
-  float:center;
+ 
   margin-left: auto;
   margin-right: auto;
   text-align: center;
