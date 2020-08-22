@@ -15,9 +15,7 @@ function printScreen(){
     console.log(window.innerWidth+"px ->width");
     console.log(window.innerHeight+"px ->height");
 }
-function scrollTo(link) {
-    location.hash =link.hash.substr(1);
-}
+
 
 
 //1169 is max width for mobile device 
