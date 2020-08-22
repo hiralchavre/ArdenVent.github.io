@@ -2,13 +2,13 @@
 :root{
   --green-color:#8AD7BB;
   --blue-color:#243564;
-
+  font-family:Futura;
 }
 body {
   padding: 0;
   background: white;
   cursor: default;
-  font-family:Futura;
+
 }
 section{
   margin-right:10%;
@@ -32,7 +32,7 @@ section{
 }
 .black-text{
   color: black;
-  font-family:Futura;
+
 }
 .green-text{
   color: var(--green-color);
@@ -84,7 +84,7 @@ span{
   margin-right: 2%;
 }
 .center{
- 
+
   margin-left: auto;
   margin-right: auto;
   text-align: center;
