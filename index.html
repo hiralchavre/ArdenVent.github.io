@@ -177,6 +177,12 @@
 			
 				<div>
 					<h4>
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="xclick" />
+
+							<input type="number" id='currencyAmount' name="donationAmount" placeholder="60">
+							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" /><img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+						</form>
 						<span onclick="subtract()">-</span><span class="money">60</span> <sup>USD</sup> <span onclick="addition()">+</span> <button onclick='location.href= " https://www.paypal.com/biz/fund?id=PT6HTRVHGE5YG"'> <B>Donate</B></button>
 					</h4>
 				</div>
@@ -202,7 +208,7 @@
 	<section></section>
 
 	<div class="center">
-	<button onClick="document.getElementById('Volunteer-opportunities').scrollIntoView();">
+	<button onClick="document.getElementById('Volunteer-oportunities').scrollIntoView();" href="#Volunteer-opportunities">
 		View volunteer positions
 	</button>
 </div>
@@ -380,7 +386,7 @@
 </div>
 </section>
 
-<section id="Volunteer-opportunities" style="margin:0px; padding-top:5%; padding-bottom:5%; background-color:white;">
+<section id="Volunteer-oportunities" style="margin:0px; padding-top:5%; padding-bottom:5%; background-color:white;">
 	<div style=" margin-right:10%;">
 		<div>
 		<h3 class="blue-section green-text" style="float:left; padding:7px; padding-left:10%; padding-right:7%; margin-right:100px; ">
